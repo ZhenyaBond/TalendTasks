@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_LKMQ4KRgEeiZgOyw04o-7Q" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_LKMQ4aRgEeiZgOyw04o-7Q" comment="" name="DATA_DIR" prompt="DATA_DIR?" promptNeeded="false" type="id_String" value="C:/input"/>
+</talendfile:ContextType>
