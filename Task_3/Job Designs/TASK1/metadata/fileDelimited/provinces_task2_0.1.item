@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_FGGCoKH-EeiaOO2lRz028A" name="provinces_task2" dataPackage="_FGGCoaH-EeiaOO2lRz028A" Server="Localhost 127.0.0.1" FilePath="D:/yauheni_bandarchyk/Talend Data Integration/Topic 02/input/provinces.csv" Format="WINDOWS" Encoding="windows-1252" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_FGGCoaH-EeiaOO2lRz028A" name="default" dataManager="_FGGCoKH-EeiaOO2lRz028A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_FGGCoqH-EeiaOO2lRz028A" id="_31HUwKH9EeiaOO2lRz028A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCo6H-EeiaOO2lRz028A" label="COUNTRY_KEY" length="3" talendType="id_Integer" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCpKH-EeiaOO2lRz028A" label="COUNTRY_NAME" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCpaH-EeiaOO2lRz028A" label="ISO2" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCpqH-EeiaOO2lRz028A" label="ISO3" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCp6H-EeiaOO2lRz028A" label="PHONE_CODE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCqKH-EeiaOO2lRz028A" label="IRU" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FGGCqaH-EeiaOO2lRz028A" label="COUNTRY_PROVINCE_CODE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
