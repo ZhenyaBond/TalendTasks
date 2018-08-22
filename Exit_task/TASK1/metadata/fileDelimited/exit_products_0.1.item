@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_W_EqgKXcEeiszJXqf2KTiQ" name="exit_products" dataPackage="_W_EqgaXcEeiszJXqf2KTiQ" Server="Localhost 127.0.0.1" FilePath="D:/yauheni_bandarchyk/Talend_Data_Integration/Topic 05 Exit Task/products.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_W_EqgaXcEeiszJXqf2KTiQ" name="default" dataManager="_W_EqgKXcEeiszJXqf2KTiQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_W_EqgqXcEeiszJXqf2KTiQ" id="_FpjwMKXcEeiszJXqf2KTiQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W_Eqg6XcEeiszJXqf2KTiQ" label="Products" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W_EqhKXcEeiszJXqf2KTiQ" label="ProductName" length="92" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W_EqhaXcEeiszJXqf2KTiQ" label="CompanyName" length="39" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W_EqhqXcEeiszJXqf2KTiQ" label="Price" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_W_Eqh6XcEeiszJXqf2KTiQ" label="WarehouseLocationState" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
